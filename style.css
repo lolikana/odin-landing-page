@@ -99,16 +99,15 @@ button {
 section information
 ----------------*/
 .section-info {
-  min-width: 400px;
   background-color: #F9FAF8;
   text-align: center;
-  padding-bottom: 30px;
+  padding: 15px 0px 30px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.section-info h1 {
+#title-info {
   font-size: 25px;
   font-weight: bold;
   color: #1F2937;
@@ -116,15 +115,13 @@ section information
 
 .container-info {
   min-width: 400px;
-  max-width: 1200px;
   display: flex;
   justify-content: center;
-  align-items: space-between;
   flex-wrap: wrap;
+  gap: 10px 53px;
 }
 
 .info {
-  margin: 5px;
   font-size: 16px;
   color: #1F2937;
 }
@@ -150,6 +147,12 @@ section information
   height: 250px;
   border: 5px solid #1F2937;
   border-radius: 10px;
+}
+
+.text {
+  font-size: 16px;
+  font-weight: bold;
+  color: #1F2937;
 }
 
 /* Section 2 quote */
