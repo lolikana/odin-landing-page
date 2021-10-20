@@ -181,6 +181,7 @@ figcaption {
 }
 
 .div-sign {
+  max-width: 600px;
   background: #3882F6;
   margin: 60px 0px;
   padding: 5px 20px;
