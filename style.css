@@ -112,7 +112,6 @@ section information
 .container-info {
   min-width: 600px;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
   gap: 50px;
