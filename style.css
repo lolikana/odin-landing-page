@@ -110,17 +110,13 @@ section information
 }
 
 .container-info {
-  min-width: 400px;
+
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
-  gap: 10px 53px;
+
 }
 
-.info {
-  font-size: 16px;
-  color: #1F2937;
-}
 /*
 .img1 {
   order: 2;
