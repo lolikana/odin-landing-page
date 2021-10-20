@@ -10,7 +10,8 @@ header {
   background-color: #1F2937;
   padding-bottom: 30px;
   display: flex;
-  flex-direction: column; /* header-nav & section */
+  flex-direction: column;
+  /* header-nav & section */
 }
 
 .header-nav {
@@ -28,7 +29,8 @@ header {
   list-style: none;
   padding: 0;
   display: flex;
-  white-space: nowrap; /* text nowrap */
+  white-space: nowrap;
+  /* text nowrap */
 }
 
 li a {
@@ -41,10 +43,11 @@ li a {
 .div-header {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap; /* wrap text and image to do a column */
+  flex-wrap: wrap;
+  /* wrap text and image to do a column */
 }
 
-.header-text{
+.header-text {
   width: 600px;
   padding-bottom: 15px;
 }
@@ -55,7 +58,7 @@ li a {
   color: #F9FAF8;
 }
 
-.header-text  p {
+.header-text p {
   font-size: 18px;
   color: #F9FAF8;
 }
@@ -65,7 +68,6 @@ button {
   height: 30px;
   padding: 8px 16px;
   border-radius: 8px;
-
 }
 
 #sign-top, #shop-bottom {
@@ -93,17 +95,15 @@ button {
 /*------------------
 section information
 ----------------*/
-
 .section-info {
   background-color: #F9FAF8;
   text-align: center;
   padding-bottom: 30px;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
-.section-info  h1{
+.section-info h1 {
   font-size: 25px;
   font-weight: bold;
   color: #1F2937;
@@ -127,15 +127,15 @@ section information
 }
 
 .img2 {
-  order:1;
+  order: 1;
 }
 
 .img3 {
-  order:3;
+  order: 3;
 }
 
 .img4 {
-  order:4;
+  order: 4;
 }
 
 .img-info {
@@ -146,7 +146,6 @@ section information
 }
 
 /* Section 2 quote */
-
 .section-quote {
   background-color: #E5E7EB;
   padding-bottom: 30px;
@@ -175,6 +174,7 @@ figcaption {
   display: flex;
   justify-content: center;
 }
+
 .div-sign {
   background: #3882F6;
   margin: 60px 0px;
@@ -196,11 +196,9 @@ h1, p {
 }
 
 /* footer */
-
 footer {
-background-color: #1F2937;
-color: #E5E7EB;
-padding: 30px 0px;
-text-align: center;
-
+  background-color: #1F2937;
+  color: #E5E7EB;
+  padding: 30px 0px;
+  text-align: center;
 }
