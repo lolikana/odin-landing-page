@@ -105,6 +105,7 @@ section information
   padding-bottom: 30px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .section-info h1 {
@@ -115,14 +116,15 @@ section information
 
 .container-info {
   min-width: 400px;
+  max-width: 1200px;
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: space-between;
   flex-wrap: wrap;
 }
 
 .info {
-  margin: 5px 25px;
+  margin: 5px;
   font-size: 16px;
   color: #1F2937;
 }
