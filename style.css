@@ -29,13 +29,13 @@ header {
   padding: 0;
   display: flex;
   white-space: nowrap;
+  gap: 20px;
 }
 
 li a {
   text-decoration: none;
   font-size: 18px;
   color: #F9FAF8;
-  padding: 0px 15px;
 }
 
 .div-header {
