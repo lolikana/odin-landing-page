@@ -39,6 +39,7 @@ li a {
 }
 
 .div-header {
+  min-width: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,6 +89,7 @@ button {
 }
 
 #spider-web-img {
+  min-width: 400px;
   max-height: 375px;
   border-radius: 10px;
 }
@@ -101,6 +103,7 @@ section information
   text-align: center;
   display: block;
   flex-direction: column;
+  justify-content: center;
 }
 
 #title-info {
@@ -110,11 +113,10 @@ section information
 }
 
 .container-info {
-
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
-
+  gap: 10px 50px;
 }
 
 /*
