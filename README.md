@@ -1,6 +1,6 @@
 # odin-landing_page
 
-## The Odin Project : Foundations (Project 2)
+## <a href="https://www.theodinproject.com/">The Odin Project</a> : Foundations (Project 2)
 
 ### Flexbox
 
